@@ -76,4 +76,4 @@ function getCacheKeyFunction(globalCacheKey: string): GetCacheKeyFunction {
 export default (
   files: Array<string> = [],
   values: Array<string> = [],
-): GetCacheKeyFunction => getCacheKeyFunction(getGlobalCacheKey(files, values));
+): GetCacheKeyFunction => getGlobalCacheKey(files, values);
